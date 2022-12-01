@@ -1,0 +1,356 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: white;
+}
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  overflow-x: hidden;
+  padding: 10px 15px;
+  border-right: 1px solid silver;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  /* display: block; */
+  margin: 7px;
+}
+.home {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.explore {
+  display: flex;
+  align-items: center;
+}
+.message {
+  display: flex;
+  align-items: center;
+}
+.notification {
+  display: flex;
+  align-items: center;
+}
+.create {
+  display: flex;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.more {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-out;
+}
+
+
+/* Style page content */
+.main-container {
+  background: #efefef5b;
+}
+.active-friends {
+  display: flex;
+  align-items: center;
+  border: 1px solid silver;
+  width: 450px;
+  border-radius: 10px;
+  background: white;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+}
+.main {
+  margin-left: 300px;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.containers {
+  width: 450px;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 13.45px;
+}
+.container {
+  border: 1px solid silver;
+  width: 450px;
+  justify-content: center;
+  border-radius: 10px;
+  background: white;
+  font-size: 13.45px;
+}
+.container1 {
+  border: 1px solid silver;
+  width: 450px;
+  justify-content: center;
+  border-radius: 10px;
+  background: white;
+  font-size: 13.45px;
+}
+.container2 {
+  border: 1px solid silver;
+  width: 450px;
+  justify-content: center;
+  border-radius: 10px;
+  background: white;
+  font-size: 13.45px;
+  margin-top: 70px;
+}
+.container3 {
+  border: 1px solid silver;
+  width: 450px;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 70px;
+
+  background: white;
+  font-size: 13.45px;
+}
+.contain-img {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.revival-div {
+  display: flex;
+  gap: 10px;
+}
+.revival-div a {
+  text-decoration: none;
+  color: black;
+}
+.revival-div p {
+  font-weight: 600;
+}
+.contain-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.contain-icons .icon1:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.contain-icons .icon2:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.contain-icons .icon3:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.contain-icons .icon4:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.contain-iconlist {
+  /* display: flex; */
+  gap: 10px;
+}
+.contain-views {
+  padding: 15px;
+  line-height: 1.7;
+}
+.contain-views a {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+}
+.revival-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.revival-img {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.revival-fav:hover {
+  transform: scale(1.1);
+}
+.contain-post input {
+  width: 449px;
+  border: none;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  padding: 15px;
+  background: transparent;
+  /* align-items: center; */
+}
+.contain-post button {
+  border: none;
+  background: transparent;
+  color: rgb(0, 106, 255);
+  cursor: pointer;
+}
+.contain-post {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.second-container {
+  width: 300px;
+  margin-top: 30px;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+
+}
+.profile2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+
+}
+.profile3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+
+}
+.profile4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+
+}
+.profile5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+
+}
+.profile a {
+  text-decoration: none;
+  color: black;
+}
+.profile1 a {
+  text-decoration: none;
+  color: black;
+}
+.profile2 a {
+  text-decoration: none;
+  color: black;
+}
+.profile3 a {
+  text-decoration: none;
+  color: black;
+}
+.profile4 a {
+  text-decoration: none;
+  color: black;
+}
+.profile5 a {
+  text-decoration: none;
+  color: black;
+}
+.profile .switch {
+  color: rgb(0, 106, 255);
+}
+.profile p {
+  color: gray;
+}
+.profile1 .switch {
+  color: rgb(0, 106, 255);
+}
+.profile1 p {
+  color: gray;
+}
+.profile2 .switch {
+  color: rgb(0, 106, 255);
+}
+.profile2 p {
+  color: gray;
+}
+.profile3 .switch {
+  color: rgb(0, 106, 255);
+}
+.profile3 p {
+  color: gray;
+}
+.profile4 .switch {
+  color: rgb(0, 106, 255);
+}
+.profile4 p {
+  color: gray;
+}
+.profile5 .switch {
+  color: rgb(0, 106, 255);
+}
+.profile5 p {
+  color: gray;
+}
+/* .see-all a {
+  color: rgb(0, 106, 255);
+} */
+.img-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.list-items p {
+  color: gray;
+  margin-top: 20px;
+}
+.list-lists {
+  display: flex;
+  gap: 5px;
+  font-size: 13px;
+}
+.list-lists a {
+  text-decoration: none;
+  color: gray;
+  margin: 6px;
+}
+
+.second-main {
+  margin-left: 300px;
+  padding: 30px 100px;
+}
